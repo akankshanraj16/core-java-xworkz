@@ -1,7 +1,12 @@
 class WaterHeaterTester{
 
  public static void main(String water[]){
-	 
+	  WaterHeater waterHeaters = new WaterHeater();
+	 System.out.println(waterHeaters.name);
+	 System.out.println(waterHeaters.capacity);
+	 System.out.println(waterHeaters.price);
+	 System.out.println(waterHeaters.color);
+	
 	 WaterHeater waterHeater = new WaterHeater();
 	 waterHeater.name = "V-guard";
 	 waterHeater.capacity = "3L";
@@ -91,7 +96,11 @@ class WaterHeaterTester{
 	 waterHeater9.toHeatWater();
 	 System.out.println(waterHeater9.name+" "+waterHeater9.capacity+" "+waterHeater9.price+" "+waterHeater9.color);
 	 System.out.println(" ");
-	 
+	  System.out.println(waterHeaters.name);
+	 System.out.println(waterHeaters.capacity);
+	 System.out.println(waterHeaters.price);
+	 System.out.println(waterHeaters.color);
+	
 	 
  }
 

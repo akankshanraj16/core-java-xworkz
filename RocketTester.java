@@ -1,5 +1,11 @@
 class RocketTester{
     public static void main(String roc[]){
+		
+	Rocket rockets = new Rocket();
+	 System.out.println(rockets.name);
+	 System.out.println(rockets.year);
+	 System.out.println(rockets.purpose);
+	 
 	System.out.println("Creating 1st copy of the Rocket");
     Rocket rocket = new Rocket();
 	rocket.name = "PSLV-C1";
@@ -79,6 +85,10 @@ class RocketTester{
     rocket9.purpose = "Successfully launched EOS-01 (RISAT-2BR2) and nine customer satellites";
 	rocket9.toDevelope();
 	System.out.println(rocket9.name +" "+ rocket9.year + " " + rocket9.purpose);
+	
+	 System.out.println(rockets.name);
+	 System.out.println(rockets.year);
+	 System.out.println(rockets.purpose);
 	}
 }
 	

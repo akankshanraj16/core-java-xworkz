@@ -1,6 +1,10 @@
 class AgroIndustryTester{
 
 public static void main(String agroIndustry[]){
+	 AgroIndustry agroIndustries = new AgroIndustry();
+	 System.out.println(agroIndustries.name);
+	 System.out.println(agroIndustries.type);
+	 System.out.println(agroIndustries.quantityProducedInKg);
    
 	  System.out.println("Creating 1st copy of agroIndustry");
 	  AgroIndustry agroIndustry1 = new AgroIndustry();
@@ -81,6 +85,10 @@ public static void main(String agroIndustry[]){
 	  agroIndustry10.quantityProducedInKg = 104;
 	  agroIndustry10.toProduceRawMaterials();
 	  System.out.println(agroIndustry10.name + " " + agroIndustry10.type + " " + agroIndustry10.quantityProducedInKg);
+	  
+	  System.out.println(agroIndustries.name);
+	 System.out.println(agroIndustries.type);
+	 System.out.println(agroIndustries.quantityProducedInKg);
 }
 
 }

@@ -1,5 +1,7 @@
 class Umbrella{
-
+ public Umbrella(){
+    System.out.println("Umbrella constructor is invoked");
+  }
 String brand;
 String pattern;
 String frameMaterial;

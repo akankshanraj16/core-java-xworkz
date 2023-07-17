@@ -1,5 +1,7 @@
 class Helmet{
- 
+  public Helmet(){
+    System.out.println("Helmet constructor is invoked");
+  }
  String name;
  String type;
  int price;

@@ -1,6 +1,11 @@
 class DoorTester{
  
  public static void main(String lock[]){
+	 Doors doors = new Doors();
+	 System.out.println(doors.name);
+	 System.out.println(doors.type);
+	 System.out.println(doors.price);
+	 System.out.println(doors.weight);
  
   Doors door = new Doors();
   door.name = "CVC";
@@ -91,6 +96,10 @@ class DoorTester{
   door9.forSafetyAndSecurity();
   System.out.println(door9.name+" "+door9.type+" "+door9.price+" "+door9.weight);
   System.out.println(" "); 
+  System.out.println(doors.name);
+	 System.out.println(doors.type);
+	 System.out.println(doors.price);
+	 System.out.println(doors.weight);
  
  }
 

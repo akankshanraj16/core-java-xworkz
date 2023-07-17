@@ -1,4 +1,7 @@
 class Chocolates{
+	 public Chocolates(){
+    System.out.println("Chocolates constructor is invoked");
+  }
 
     //instance
     String Name;

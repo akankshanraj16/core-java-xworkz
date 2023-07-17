@@ -1,6 +1,11 @@
 class  WalletTester{
-
+	
 public static void main(String s[]){
+	Wallet wallets = new Wallet();
+	 System.out.println(wallets.walletMaterialType);
+	 System.out.println(wallets.countryOfOrigin);
+	 System.out.println(wallets.price);
+	 System.out.println(wallets.noOfCompotments);
 System.out.println("1st copy of wallet");
 Wallet  wallet=new Wallet();
 wallet.walletMaterialType="leather";
@@ -90,6 +95,11 @@ wallet9. price= 1300;
 wallet9.noOfCompotments=2;
 wallet9.forSafety();
 System.out.println(wallet9.walletMaterialType+ "  " +wallet9.countryOfOrigin+ "  "+ wallet9. price+ "" + wallet9.noOfCompotments);
+
+     System.out.println(wallets.walletMaterialType);
+	 System.out.println(wallets.countryOfOrigin);
+	 System.out.println(wallets.price);
+	 System.out.println(wallets.noOfCompotments);
 
 
 }

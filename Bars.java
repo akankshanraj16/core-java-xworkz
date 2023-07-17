@@ -1,4 +1,7 @@
 class Bars{
+	 public Bars(){
+    System.out.println("Bars constructor is invoked");
+  }
  
   String name;
   String type;

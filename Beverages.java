@@ -1,5 +1,7 @@
 class Beverages{
- 
+   public Beverages(){
+    System.out.println("Beverages constructor is invoked");
+  }
  String name;
  String flavour;
  String type;

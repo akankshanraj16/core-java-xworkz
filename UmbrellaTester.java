@@ -1,5 +1,10 @@
 class UmbrellaTester{
 public static void main(String s[]){
+	Umbrella umbrellas = new Umbrella();
+	 System.out.println(umbrellas.brand);
+	 System.out.println(umbrellas.pattern);
+	 System.out.println(umbrellas.frameMaterial);
+	 System.out.println(umbrellas.price);
 System.out.println("1st copy of umbrella");
 Umbrella umbrella= new Umbrella();
 umbrella.brand= "kenneth cole";
@@ -90,7 +95,10 @@ umbrella9.price= 800;
 umbrella9.forRain();
 System.out.println(umbrella9.brand+ " is a brand of umbreallla"  +umbrella9.pattern + " is a pattern of umbrealla  "+umbrella9.frameMaterial+ "is a frame material   "+umbrella9.price + "is a price of umbrealla");
 
-
+System.out.println(umbrellas.brand);
+	 System.out.println(umbrellas.pattern);
+	 System.out.println(umbrellas.frameMaterial);
+	 System.out.println(umbrellas.price);
 }
 
 

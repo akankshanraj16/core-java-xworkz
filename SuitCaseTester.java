@@ -1,5 +1,10 @@
 class SuitCaseTester{
 public static void main(String s[]){
+	SuitCase suitCases = new SuitCase();
+	 System.out.println(suitCases.brandName);
+	 System.out.println(suitCases.weight);
+	 System.out.println(suitCases.price);
+	 System.out.println(suitCases.noOfPockets);
 System.out.println("1st copy of suitcase");
 SuitCase suitCase= new SuitCase();
 suitCase.brandName= "Skybags";
@@ -98,6 +103,10 @@ suitCase9.noOfPockets=2;
 suitCase9.forLuggage();
 System.out.println(suitCase9.brandName + " is a brand of suitcase  " +suitCase9.weight + " is a weight of suitcase  " +suitCase9.price + " is a price of suitcase " + suitCase9.noOfPockets + " is a number of pockets in suitcase"  );
 
+     System.out.println(suitCases.brandName);
+	 System.out.println(suitCases.weight);
+	 System.out.println(suitCases.price);
+	 System.out.println(suitCases.noOfPockets);
 
 
 

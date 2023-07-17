@@ -1,4 +1,7 @@
 class RadioObject{
+	 public RadioObject(){
+    System.out.println("RadioObject constructor is invoked");
+  }
  
  String name;
  String type;

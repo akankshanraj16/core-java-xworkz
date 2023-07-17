@@ -1,5 +1,10 @@
 class TrollyTester{
 public static void main(String s[]){
+	Trolly trollys = new Trolly();
+	 System.out.println(trollys.trollyColor);
+	 System.out.println(trollys.price);
+	 System.out.println(trollys.noOfPockets);
+	 System.out.println(trollys.weight);
 System.out.println("1st copy of trolly");
 Trolly trolly= new Trolly();
 trolly.trollyColor= "Black";
@@ -90,8 +95,10 @@ trolly9.weight= "2kg";
 trolly9.forTravel();
 System.out.println(trolly9.trollyColor+ "is trolly color  " + trolly9.price + " is aprice of trolly  " +  trolly9.noOfPockets + " is a nUmber of pockets of trolly  " + trolly9.weight+ " is a weight of trolly");
 	
-	
-	
+	 System.out.println(trollys.trollyColor);
+	 System.out.println(trollys.price);
+	 System.out.println(trollys.noOfPockets);
+	 System.out.println(trollys.weight);
 	
 }
 

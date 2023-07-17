@@ -1,16 +1,10 @@
 class Ship{
 
-    //instance
-    String Name;
-	int price;
-	String author;
-    String type;
-	String publicationName;
-    String noOfPages;
-	
-	//instance
-	public void gainKnowledge(){
-	 System.out.println("");
-	}
-
+  String name;
+  String purpose;
+  int noOfCompartments;
+  
+  public void toSailShips(){
+  System.out.println("Ships always sail on water");
+  }
 }

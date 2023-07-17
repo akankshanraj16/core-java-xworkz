@@ -1,6 +1,10 @@
 class ShipTester{
 	
   public static void main(String ships[]){
+	  Ship ship = new Ship();
+	 System.out.println(ship.name);
+	 System.out.println(ship.purpose);
+	 System.out.println(ship.noOfCompartments);
    
 	  Ship ship1 = new Ship();
 	  ship1.name = "Titanic";
@@ -81,6 +85,9 @@ class ShipTester{
 	  ship10.toSailShips();
 	  System.out.println(ship10.name + " " + ship10.purpose + " " + ship10.noOfCompartments);
       System.out.println(" ");
+	  System.out.println(ship.name);
+	 System.out.println(ship.purpose);
+	 System.out.println(ship.noOfCompartments);
 }
 
 }

@@ -1,6 +1,11 @@
 class BarsTester{
  
  public static void main(String bars[]){
+	 Bars barss = new Bars();
+	 System.out.println(barss.name);
+	 System.out.println(barss.type);
+	 System.out.println(barss.drinksAvailable);
+	 System.out.println(barss.address);
 	 
 	 Bars bar = new Bars();
 	 bar.name = "Sip n rock";
@@ -91,6 +96,10 @@ class BarsTester{
 	 bar9.toHaveFun();
 	 System.out.println(bar9.name+" "+bar9.type+" "+bar9.drinksAvailable+" "+bar9.address);
 	 System.out.println(" ");
+	 System.out.println(barss.name);
+	 System.out.println(barss.type);
+	 System.out.println(barss.drinksAvailable);
+	 System.out.println(barss.address);
  } 
  
 }

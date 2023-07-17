@@ -1,6 +1,11 @@
 class Projector1Tester{
  
  public static void main(String project[]){
+	  ProjectorObject projectors = new ProjectorObject();
+	 System.out.println(projectors.name);
+	 System.out.println(projectors.type);
+	 System.out.println(projectors.price);
+	 System.out.println(projectors.maxDistance);
  
  ProjectorObject projector = new ProjectorObject();
  projector.name = "Zebronics";
@@ -91,6 +96,11 @@ class Projector1Tester{
  projector9.projectImage();
  System.out.println(projector9.name+" "+projector9.type+" "+projector9.price+" "+projector9.maxDistance);
  System.out.println(" ");
+ 
+ System.out.println(projectors.name);
+	 System.out.println(projectors.type);
+	 System.out.println(projectors.price);
+	 System.out.println(projectors.maxDistance);
  }
 
 }

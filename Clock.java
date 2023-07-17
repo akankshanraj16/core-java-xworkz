@@ -1,4 +1,8 @@
 class Clock{
+	
+	 public Clock(){
+    System.out.println("Clock constructor is invoked");
+  }
  String name;
  String type;
  int price;

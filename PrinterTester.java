@@ -1,7 +1,11 @@
 class PrinterTester{
 
  public static void main(String print[]){
-	 
+	 Printer printers = new Printer();
+	 System.out.println(printers.name);
+	 System.out.println(printers.type);
+	 System.out.println(printers.price);
+	 System.out.println(printers.origin);
 	Printer printer = new Printer();
 	printer.toPrint();
 	printer.name = "HP DeskJet";
@@ -91,6 +95,10 @@ class PrinterTester{
 	printer9.origin = "UK";
 	System.out.println(printer9.name+" "+printer9.type+" "+printer9.price+" "+printer9.origin);
 	System.out.println(" ");
+	System.out.println(printers.name);
+	 System.out.println(printers.type);
+	 System.out.println(printers.price);
+	 System.out.println(printers.origin);
 	 
  }
 

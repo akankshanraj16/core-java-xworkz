@@ -1,5 +1,7 @@
 class Printer{
-
+   public Printer(){
+    System.out.println("Printer constructor is invoked");
+  }
  String name;
  String type;
  int price;

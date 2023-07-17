@@ -1,7 +1,11 @@
 class JwelleryTester{
 
  public static void main(String jewellaries[]){
- 
+ Jwellery jwellery = new Jwellery();
+	 System.out.println(jwellery.name);
+	 System.out.println(jwellery.type);
+	 System.out.println(jwellery.price);
+	 System.out.println(jwellery.grams);
  Jwellery jewel = new Jwellery();
  jewel.name = "earings";
  jewel.type = "silver";
@@ -92,7 +96,10 @@ class JwelleryTester{
  System.out.println(jewel9.name+" "+jewel9.type+" "+jewel9.price+" "+jewel9.grams);
  System.out.println(" ");
  
- 
+ System.out.println(jwellery.name);
+	 System.out.println(jwellery.type);
+	 System.out.println(jwellery.price);
+	 System.out.println(jwellery.grams);
  }
 
 }

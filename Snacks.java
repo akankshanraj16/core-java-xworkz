@@ -1,4 +1,8 @@
 class Snacks{
+	
+	 public Snacks(){
+    System.out.println("Snacks constructor is invoked");
+  }
  String name;
  String type;
  int price;

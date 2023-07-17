@@ -1,6 +1,12 @@
 class BeveragesTester{
 
  public static void main(String drink[]){
+	 Beverages beverages = new Beverages();
+	 System.out.println(beverages.name);
+	 System.out.println(beverages.flavour);
+	 System.out.println(beverages.color);
+	 System.out.println(beverages.type);
+   
 	 
   Beverages beverage = new Beverages();
   beverage.name = "Mango juice";
@@ -91,6 +97,10 @@ class BeveragesTester{
   beverage9.toDrink();
   System.out.println(beverage9.name+" "+beverage9.flavour+" "+beverage9.color+" "+beverage9.type);
   System.out.println(" ");
+  System.out.println(beverages.name);
+	 System.out.println(beverages.flavour);
+	 System.out.println(beverages.color);
+	 System.out.println(beverages.type);
   
     
  }

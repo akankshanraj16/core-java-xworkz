@@ -1,5 +1,8 @@
 class Person{
-
+  //constructor -developer
+  public Person(){
+    System.out.println("Person constructor is invoked");
+  }
  String name;
  String gender;
  String type;

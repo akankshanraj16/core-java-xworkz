@@ -1,4 +1,7 @@
 class Toys{
+	 public Toys(){
+    System.out.println("Toys constructor is invoked");
+  }
   
   String name;
   String type;

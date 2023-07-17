@@ -1,7 +1,11 @@
 class HelmetTester{
 
  public static void main(String test[]){
-	 
+	 Helmet helmets = new Helmet();
+	 System.out.println(helmets.name);
+	 System.out.println(helmets.type);
+	 System.out.println(helmets.price);
+	 System.out.println(helmets.color);
 	 Helmet helmet = new Helmet();
 	 helmet.name = "Bell helmets";
 	 helmet.type = "Full-face";
@@ -91,8 +95,10 @@ class HelmetTester{
 	 helmet9.forSafety();
 	 System.out.println(helmet9.name+" "+helmet9.type+" "+helmet9.price+" "+helmet9.color);
 	 System.out.println(" ");
-	 
-	 
+	System.out.println(helmets.name);
+	 System.out.println(helmets.type);
+	 System.out.println(helmets.price);
+	 System.out.println(helmets.color);
  }
 
 

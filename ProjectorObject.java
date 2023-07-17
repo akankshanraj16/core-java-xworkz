@@ -1,5 +1,7 @@
 class ProjectorObject{
-
+   public ProjectorObject(){
+    System.out.println("ProjectorObject constructor is invoked");
+  }
  String name;
  String type;
  double maxDistance;

@@ -1,6 +1,10 @@
 class SatelliteTester{
    
    public static void main(String satellite[]){
+	   Satellite satellites = new Satellite();
+	 System.out.println(satellites.name);
+	 System.out.println(satellites.type);
+	 System.out.println(satellites.communicationCost);
    
 	  Satellite satellite1 = new Satellite();
 	  satellite1.name = "Sputnik 1";
@@ -81,6 +85,9 @@ class SatelliteTester{
 	  satellite10.launchSatellites();
 	  System.out.println(satellite10.name + " " + satellite10.type + " " + satellite10.communicationCost);
 	  System.out.println(" ");
+	  System.out.println(satellites.name);
+	 System.out.println(satellites.type);
+	 System.out.println(satellites.communicationCost);
 }
 
 }

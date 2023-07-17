@@ -1,4 +1,7 @@
 class MusicalInstruments{
+	 public MusicalInstruments(){
+    System.out.println("MusicalInstruments constructor is invoked");
+  }
  
  String name;
  String type;

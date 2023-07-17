@@ -1,5 +1,7 @@
-class Doors
-{
+class Doors{
+	 public Doors(){
+    System.out.println("Doors constructor is invoked");
+  }
 
  String name;
  String type;

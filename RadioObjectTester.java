@@ -1,7 +1,11 @@
 class RadioObjectTester{
 
  public static void main(String radios[]){
-
+    RadioObject radioss = new RadioObject();
+	 System.out.println(radioss.name);
+	 System.out.println(radioss.type);
+	 System.out.println(radioss.color);
+	 System.out.println(radioss.price);
   RadioObject radio = new RadioObject();
   radio.name = "Philips radio";
   radio.type = "FM & AM";
@@ -91,8 +95,10 @@ class RadioObjectTester{
   radio9.listenMusic();
   System.out.println(radio9.name+" "+radio9.type+" "+radio9.color+" "+radio9.price);
   System.out.println(" ");
- 
- 
+ System.out.println(radioss.name);
+	 System.out.println(radioss.type);
+	 System.out.println(radioss.color);
+	 System.out.println(radioss.price);
  
  }
 

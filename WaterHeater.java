@@ -1,4 +1,7 @@
 class WaterHeater{
+	public WaterHeater(){
+    System.out.println("WaterHeater constructor is invoked");
+  }
 
  String name;
  String capacity;

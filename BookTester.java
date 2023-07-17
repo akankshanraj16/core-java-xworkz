@@ -1,6 +1,14 @@
 class BookTester{
 
    public static void main(String s[]){
+	   Book books = new Book();
+	 System.out.println(books.name);
+	 System.out.println(books.price);
+	 System.out.println(books.author);
+	 System.out.println(books.type);
+	 System.out.println(books.publicationName);
+	 System.out.println(books.noOfPages);
+	
     System.out.println("Creating 1st copy of book");
 	Book book = new Book();
 	book.name ="Think Like a Monk";
@@ -110,5 +118,12 @@ class BookTester{
 	book9.noOfPages =236;
 	book9.gainKnowledge();
 	System.out.println(book9.name +" "+book9.price+" "+book9.author+""+book9.type+""+book.publicationName+""+book.noOfPages);
+	
+	System.out.println(books.name);
+	 System.out.println(books.price);
+	 System.out.println(books.author);
+	 System.out.println(books.type);
+	 System.out.println(books.publicationName);
+	 System.out.println(books.noOfPages);
    }
 }

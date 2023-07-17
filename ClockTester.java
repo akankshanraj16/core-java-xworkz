@@ -1,7 +1,11 @@
 class ClockTester{
 
  public static void main(String time[]){
- 
+     Clock clock = new Clock();
+	 System.out.println(clock.name);
+	 System.out.println(clock.type);
+	 System.out.println(clock.price);
+	 System.out.println(clock.material);
   Clock clocks = new Clock();
   clocks.name = "CW crafts world";
   clocks.type = "Analog";
@@ -91,6 +95,10 @@ class ClockTester{
   clocks9.toShowTime();
   System.out.println(clocks9.name+" "+clocks9.type+" "+clocks9.price+" "+clocks9.material);
   System.out.println(" ");
+  System.out.println(clock.name);
+	 System.out.println(clock.type);
+	 System.out.println(clock.price);
+	 System.out.println(clock.material);
   
     
  }

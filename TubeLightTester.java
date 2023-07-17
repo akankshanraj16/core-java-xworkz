@@ -1,7 +1,11 @@
 class TubeLightTester{
 
  public static void main(String tube[]){
- 
+ TubeLight tubeLight = new TubeLight();
+	 System.out.println(tubeLight.name);
+	 System.out.println(tubeLight.type);
+	 System.out.println(tubeLight.powerConsumption);
+	 System.out.println(tubeLight.price);
  TubeLight light = new TubeLight();
  light.name = "Crompton";
  light.type = "LED";
@@ -92,6 +96,9 @@ class TubeLightTester{
  System.out.println(light.name+" "+light.type+" "+light.powerConsumption+" "+light.price);
  System.out.println(" ");
  
- 
+     System.out.println(tubeLight.name);
+	 System.out.println(tubeLight.type);
+	 System.out.println(tubeLight.powerConsumption);
+	 System.out.println(tubeLight.price);
  }
 }

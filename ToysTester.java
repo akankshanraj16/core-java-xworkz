@@ -1,6 +1,11 @@
 class ToysTester{
 
   public static void main(String toys[]){
+	  Toys toyss = new Toys();
+	 System.out.println(toyss.name);
+	 System.out.println(toyss.type);
+	 System.out.println(toyss.price);
+	 System.out.println(toyss.color);
   
   Toys toy = new Toys();
   toy.name = "Octopus";
@@ -91,6 +96,9 @@ class ToysTester{
   toy9.play();
   System.out.println(toy9.name+" "+toy9.type+" "+toy9.price+" "+toy9.color);
   System.out.println(" ");
-  
+     System.out.println(toyss.name);
+	 System.out.println(toyss.type);
+	 System.out.println(toyss.price);
+	 System.out.println(toyss.color);
   }
 }

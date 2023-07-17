@@ -1,7 +1,13 @@
 class PersonTester{
 
  public static void main(String human[]){
-  
+	 
+	Person persons = new Person();
+	System.out.println(persons.name);
+	System.out.println(persons.gender);
+	System.out.println(persons.type);
+	System.out.println(persons.age);
+	
   Person person = new Person();
   person.name = "Ajay";
   person.gender = "Male";
@@ -91,7 +97,11 @@ class PersonTester{
   person9.toWork();
   System.out.println(person9.name+" "+person9.gender+" "+person9.type+" "+person9.age);
   System.out.println(" ");
-  
+
+	 System.out.println(persons.name);
+	 System.out.println(persons.gender);
+	 System.out.println(persons.type);
+	 System.out.println(persons.age);
   
  }
  }

@@ -2,6 +2,11 @@ class SnacksTester{
 
  public static void main(String snack[]){
 	 
+	 Snacks snackss = new Snacks();
+	 System.out.println(snackss.name);
+	 System.out.println(snackss.type);
+	 System.out.println(snackss.price);
+	 System.out.println(snackss.quantity);
 	 Snacks snacks = new Snacks();
 	 snacks.name = "Doritos";
 	 snacks.type = "spicy";
@@ -91,7 +96,10 @@ class SnacksTester{
 	 snacks9.toEat();
 	 System.out.println(snacks9.name+" "+snacks9.type+" "+snacks9.price+" "+snacks9.quantity);
 	 System.out.println(" ");
-	 
+	  System.out.println(snackss.name);
+	 System.out.println(snackss.type);
+	 System.out.println(snackss.price);
+	 System.out.println(snackss.quantity);
  }
 
 

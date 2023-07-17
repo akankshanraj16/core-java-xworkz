@@ -1,7 +1,11 @@
 class MusicalInstrumentsTester{
  
   public static void main(String args[]){
-   
+   MusicalInstruments instruments = new MusicalInstruments();
+	 System.out.println(instruments.name);
+	 System.out.println(instruments.type);
+	 System.out.println(instruments.color);
+	 System.out.println(instruments.price);
    MusicalInstruments instrument = new MusicalInstruments();
    instrument.name = "Piano";
    instrument.type = "Chordophones";
@@ -91,7 +95,10 @@ class MusicalInstrumentsTester{
    instrument9.produceMusic();
    System.out.println(instrument9.name+" "+instrument9.type+" "+instrument9.color+" "+instrument9.price);
    System.out.println(" ");   
-  
+     System.out.println(instruments.name);
+	 System.out.println(instruments.type);
+	 System.out.println(instruments.color);
+	 System.out.println(instruments.price);
   }
 
 }

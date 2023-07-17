@@ -1,6 +1,15 @@
 class ChocolatesTester{
 
    public static void main(String s[]){
+	   Chocolates choco = new Chocolates();
+	 System.out.println(choco.name);
+	 System.out.println(choco.price);
+	 System.out.println(choco.flavour);
+	 System.out.println(choco.color);
+	 System.out.println(choco.quantity);
+	 System.out.println(choco.expDate);
+	 System.out.println(choco.mgfDate);
+	 
     System.out.println("Creating 1st copy of Chocolates");
 	Chocolates Chocolate = new Chocolates();
 	Chocolate.name ="kitkat";
@@ -119,5 +128,13 @@ class ChocolatesTester{
 	chocolate9.noOfPages =236;
 	chocolate9.toGetCalories();
 	System.out.println(Chocolate9.name +" "+Chocolate9.price+" "+Chocolate9.flavour+""+Chocolate9.color+""+Chocolate9.quantity+""+Chocolate9.expDate+""+Chocolate9.mgfDate);
+	
+	System.out.println(choco.name);
+	 System.out.println(choco.price);
+	 System.out.println(choco.flavour);
+	 System.out.println(choco.color);
+	 System.out.println(choco.quantity);
+	 System.out.println(choco.expDate);
+	 System.out.println(choco.mgfDate);
    }
 }
